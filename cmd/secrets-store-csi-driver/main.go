@@ -93,7 +93,7 @@ func mainErr() error {
 	ctx := withShutdownSignal(context.Background())
 
 	defer mlog.Setup()()
-	format := mlog.FormatText
+	format := mlog.FormatJSON
 	if *logFormatJSON {
 		format = mlog.FormatJSON
 	}
