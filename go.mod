@@ -20,7 +20,7 @@ require (
 	k8s.io/client-go v0.25.0
 	k8s.io/klog/v2 v2.80.1
 	k8s.io/mount-utils v0.25.0
-	monis.app/mlog v0.0.2-0.20230112164719-4702e4418538
+	monis.app/mlog v0.0.2
 	sigs.k8s.io/controller-runtime v0.13.0
 )
 
